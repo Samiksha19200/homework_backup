@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+@font-face{
+    font-family: text;
+    src: url(./Maerulin\ Demo.otf);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    /* margin: 15px; */
+    background-color:black;
+    display: grid;
+    gap: 15px;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 70px 1fr 200px;
+    grid-template-areas: "header header header"
+                          "section1 section1 section2"
+                          "figure1 figure2 section2";
+                          
+
+
+}
+header{
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    grid-area: header;
+    font-weight: 100px;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.center{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    
+}
+.center>h2{
+    font-weight: 200;
+
+}
+
+.right{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    
+
+}
+header button{
+    margin: 5px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(128, 128, 128, 0.089);
+    border: none;
+}
+button h4{
+    color: rgb(90, 87, 87);
+}
+header h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateX(-10%);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#section1{
+    background-color: lightgray;
+    color: black;
+    grid-area: section1;
+    border-radius: 15px;
+}
+#section1 h1{
+    font-weight: 10000px;    
+    padding: 10px;
+    font-family: text;
+    font-size: 50px;
+    
+
+
+}
+#section1 p{
+    font-weight:20px ;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 400px;        
+    margin: 0 auto;      
+    text-align: left; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    text-align: left;
+}
+    
+
+#section2{
+    background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=720&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    grid-area: section2;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-radius: 15px;
+
+    
+}   
+#button1{
+    margin: 5px;
+    height: 40px;
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    background-color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#button2{
+     margin: 5px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+#button2 h3{
+    color: black;
+}
+
+#figure1{
+    background-image: url(https://plus.unsplash.com/premium_photo-1673757121102-0ca51260861f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    grid-area:figure1 ;
+    border-radius: 15px;
+    position: relative;
+    
+}
+#figure1 h2{
+    color: white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 0%;
+    
+
+    
+}
+#figure2{
+    background-image: url(https://plus.unsplash.com/premium_photo-1668485966810-cbd0f685f58f?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    grid-area: figure2;
+    border-radius: 15px;
+    position: relative;
+}
+#figure2 h2{
+    color: white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 0%;
+    
+}

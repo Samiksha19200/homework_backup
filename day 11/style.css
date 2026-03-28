@@ -1,0 +1,44 @@
+@font-face {
+    font-family: new;
+    src: url(/GreatVibes-Regular.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#image{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/29949985/pexels-photo-29949985/free-photo-of-vibrant-cricket-match-at-melbourne-cricket-ground.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+
+    padding: 40px;
+}
+
+
+#heading{
+    font-family: new;
+    font-size: 100px;
+}
+#mybt{
+    height: 50px;
+    width: 100px;
+    color: palevioletred;
+    background-color:brown;
+}
+#mybt:hover {
+  background-color:green;
+  transform: scale(1.05);
+}

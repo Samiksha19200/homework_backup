@@ -1,0 +1,59 @@
+div{
+    height: 200px;
+    color:white;
+    text-align: center;
+    background-color: darkblue;
+    
+}
+
+#about{
+    height: 100px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right:auto;
+    color: black;
+    background-color: beige;
+    text-align: centre;
+}
+
+#EDUCATION{
+    color: black;
+    background-color: lightblue;
+    height:150px ;
+    width: 1100px;
+    margin-left: auto;
+    margin-right:auto;
+
+
+}
+
+#Skills{
+    color: black;
+    height: 200px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: lightgoldenrodyellow;
+    
+
+
+}
+
+#contact{
+    color: black;
+    background-color: lightgreen;
+    height: 200px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.common{
+    height: 30px;
+    width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+
+    color: black;
+    background-color: white;
+}

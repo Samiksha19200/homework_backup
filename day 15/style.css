@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#maindiv{
+    height: 100%;
+    width: 100%;
+    background-color:lightblue;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.797);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.box p{
+    font-size: 20px;
+    font-weight: 50;
+}
+.box h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.box button{
+
+    padding: 10px 25px;
+    background-color: rgba(0, 81, 255, 0.833);
+    border-radius: 45px;
+    border: 5px  solid lightblue;
+
+}
+.box button:hover{
+    background-color: transparent;
+    color:royalblue;
+    
+}
+
+/* #box2{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.797);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#box2 img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+#box2 p{
+    font-size: 20px;
+    font-weight: 50;
+}
+#box2 h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#box2 button{
+
+    padding: 10px 25px;
+    background-color: rgba(0, 81, 255, 0.833);
+    border-radius: 45px;
+    border: 5px  solid lightblue;
+
+}
+#box2 button:hover{
+    background-color: transparent;
+    color:royalblue;
+    
+} */
