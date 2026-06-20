@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card {
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 70px 30px;
+  font-family: monospace;
+}
+main .card p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 29px;
+  margin-bottom: 39px;
+}
+main .card p span {
+  font-weight: 700;
+  color: royalblue;
+}
+main .card .outer {
+  height: 20px;
+  width: 100%;
+  background-color: #bfb9b9;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+main .card .outer .inner {
+  height: 100%;
+  width: 0%;
+  background-color: green;
+  border-radius: 20px;
+}
+main .card .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  color: black;
+}
+main .card .bottom h2 {
+  font-weight: 900;
+  font-size: 55px;
+}
+main .card .bottom button {
+  padding: 10px 30px;
+  font-size: 28px;
+  background-color: green;
+  color: white;
+  font-weight: 200;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+main .card .bottom button:active {
+  scale: 0.95;
+}/*# sourceMappingURL=style.css.map */
